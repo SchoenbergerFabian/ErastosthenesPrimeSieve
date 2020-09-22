@@ -9,13 +9,7 @@ package com.SchoenbergerFabian;
  *
  * @author Fabian
  */
-public class EratosthenesPrimeSieve {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+interface PrimeSieve {
+    public boolean isPrime(int p);
+    public void printPrimes();
 }
